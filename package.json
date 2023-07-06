@@ -1,8 +1,8 @@
 {
   "name": "ahj_2.1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/j4be3ovv6agl4qrs?svg=true)](https://ci.appveyor.com/project/juliaivi/ahj-2-1) # Домашнее задание к занятию \"2. DOM\"",
+  "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack --mode development",
     "start": "webpack server --mode development  --open",
@@ -11,27 +11,27 @@
     "lint": "eslint .",
     "test": "jest --coverage"
   },
-  "author": "Julia",
+  "author": "yulia",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
-    "babel-jest": "^29.6.0",
-    "babel-loader": "^8.0.6",
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7",
+    "babel-jest": "^29.6.1",
+    "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.8.1",
     "eslint": "^8.44.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "html-webpack-plugin": "^5.5.3",
-    "jest": "^25.0.0",
+    "jest": "^29.6.1",
     "mini-css-extract-plugin": "^2.7.6",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "core-js": "^3.31.0"
+    "core-js": "^3.31.1"
   }
 }
