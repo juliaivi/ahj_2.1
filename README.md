@@ -1,3 +1,5 @@
+#Badges CI test
+[![Build status](https://ci.appveyor.com/api/projects/status/j4be3ovv6agl4qrs?svg=true)](https://ci.appveyor.com/project/juliaivi/ahj-2-1)
 # Домашнее задание к занятию "2. DOM"
 
 Правила сдачи задания:
