@@ -4,9 +4,6 @@ export default function moveGoblin(el) {
   if (position === oldPosition && oldPosition !== null) {
     moveGoblin(el);
   }
-  if (oldPosition !== null) {
-    document.querySelectorAll(`[data-foo="${oldPosition}"]`).classList.remove('active');
-  }
 
   const cells = document.querySelectorAll('.cell');
   cells.forEach((elem) => {

@@ -2,7 +2,6 @@ export default class DrawBorder {
   constructor() {
     this.boardSize = 4;
     this.container = null;
-    this.cells = [];
   }
 
   draw() {
