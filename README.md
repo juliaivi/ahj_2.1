@@ -1,7 +1,7 @@
 #Badges CI test
 [![Build status](https://ci.appveyor.com/api/projects/status/j4be3ovv6agl4qrs?svg=true)](https://ci.appveyor.com/project/juliaivi/ahj-2-1)
 # Домашнее задание к занятию "2. DOM"
-
+https://juliaivi.github.io/ahj_2.1/
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать любой менеджер пакетов
